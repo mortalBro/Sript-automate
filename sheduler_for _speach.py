@@ -8,7 +8,8 @@ import os
 engine = pyttsx3.init()
 
 def say_good_morning():
-    engine.say("vivek kaha hai")
+    engine.say("vivvek vivvek vivvek")
+    print("dw")
     engine.runAndWait()
 
 # schedule saying "Good morning" every 5 minutes
